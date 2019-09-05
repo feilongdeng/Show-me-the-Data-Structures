@@ -1,0 +1,7 @@
+huffman_encoding: I create a global huff. Then, I use for loop to add the elements of data to huff. In the second for loop, I use sorted function to the tree.Finally, I use for loop again to add elements to encode.
+Time complexity: O(nlog(n)). First for loop O(n), the second for loop O(nlog(n)), the last for loop is O(n). O(n+nlog(n)+n)=O(n(2+log(n))-->O(nlog(n)).
+Space complexity: O(distinct_characters).
+
+Huffman_decoding: Similar to huffman_encoding. Adding elements to huff by using for loop, then using for loop to add elements to temp.
+Time complexity: O(n).
+Space complexity:O(distinct_characters).

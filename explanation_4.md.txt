@@ -1,0 +1,3 @@
+I have used the recursion for this problem. I check the user whether matches the name of the group, return true if matched, otherwise, false. Then I check in the users list of that group. Later, I check the child group, return true, if matched, otherwise false again.
+Time complexity: O(depth x no. of users).
+Space complexity: O(depth x no. of users).

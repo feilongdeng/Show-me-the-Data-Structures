@@ -1,0 +1,7 @@
+
+For this problem, I use a recursion to get into the directories which includes input the suffix and path.
+Basically, I create a files inside the find_files function and directories from the suffix and path.  
+Assum the number of files in current dir is n, the max depth recursion is m, time complexity is O(m * n).
+
+Run time complexity: O(m*n)
+Space complexity: O(n)    

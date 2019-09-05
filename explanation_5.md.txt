@@ -1,0 +1,5 @@
+In order to solve this problem, I create a chain of blocks which related to a linked list. Inside the 
+linked list function, I create the append function to add elements. Then, I create a get_utc_time function.
+
+Time complexity: O(1) - for appending a block and also the linkedlist function in a constant time.
+Space complexity: O(n)

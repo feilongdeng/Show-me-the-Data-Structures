@@ -1,0 +1,18 @@
+In order to solve this problem, I create a double linked list because it has O(1) deletion, updation if we have address of Node on which this operation has to perform.
+Also, I use the hashmap which provides O(1) insertion and lookup. Hashmap will hold the keys and address of the Node of Double linkedlist. 
+And double linkedlist will hold the value of keys. 
+
+Inside the LRU Cache class, it contains the capacity, hashmap, head, and tail. 
+
+In the get function, I check if the key in the hashmap. If yes, I add the value to the node, removing the node, and adding it back and returning the value. If no, we return -1. 
+
+In the set function, if the key is in the hashmap, removing it first, creating a new node, inserting it to the linked list and hashmap. If the length of the hashmap is greater 
+than the cache capacity, we assign the node to head.next and remove the least recently used node. Finally, deleting the node key from the hashmap.
+
+I also create remove and insert functions, which handle the double linked list removal of node and insertion of the node.
+
+Time complexity of get() function: O(1), because the function get the key in a constant time.
+Time complexity of set() function: O(1), the function set the key and value into the dictionary in a constant time.
+Therefore, the time complexity is O(1 + 1)=O(2) --> O(1).
+
+Space complexity of the LRU: O(n), it depends on the number of elements we want to set, here I use n.

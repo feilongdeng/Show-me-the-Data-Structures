@@ -1,0 +1,6 @@
+union: first, I use set() stores all elements of the first list in "elements"  and a new link list, removing the duplicated elements in the first list, then I add the different elements from the second list into the tail of the "elements"  and the new link list.
+Time complexity: O(n), n represent the number of node here.
+Space complexity: O(n)
+intersection: for the first list all elements are stored into a set, for the second list its checked if the element is on the set , if it is added to the linked list. 
+time complexity O(n) 
+space O(n)
